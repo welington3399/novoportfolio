@@ -1,0 +1,98 @@
+@import url(nav.css);
+
+@import url(start.css);
+
+@import url(about_me.css);
+
+@import url(skills.css);
+
+@import url(project.css);
+
+@import url(footer.css);
+
+@import url(media.css);
+
+strong{
+    color: #2371DA;
+}
+
+
+/* CONFIG GERAL */
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+        
+}
+
+body{
+    background: var(--background-body);
+}
+
+/* CONFIG DA BARRA DE ROLAGEM  */
+::-webkit-scrollbar {
+    width:15px;
+    height: 10px;
+    }
+     
+::-webkit-scrollbar-track {
+    background:#999;
+    border: 1px solid black;
+    }
+
+::-webkit-scrollbar-thumb {
+    background: #2e9dd8;
+    border: 1px solid black;
+    }
+
+/* subir página */
+
+#subir{
+    display: block;
+    position: fixed;
+    width: 27px;
+    height: 27px;
+    bottom: 35px;
+    right: 35px;
+    z-index: 1;
+    rotate: 180deg;
+}
+
+:root{
+    /* --background-body:#F5F5F5 ; */
+    --background-body:#F0F0F0;
+    --background-itens: #FFFFFF;
+    --color-text: #000000;
+
+    --background-skills: rgb(255, 255, 255);
+    --background-text-skills: rgb(0, 0, 0);
+}
+
+body.white{
+    /* --background-body:#F5F5F5; */
+    --background-body:#F0F0F0;
+    --background-itens: #FFFFFF;
+    --color-text: #000000;
+
+    --background-skills: rgb(255, 255, 255);
+    --background-text-skills: rgb(0, 0, 0);
+}
+
+body.black{
+    --background-body:#18191A;
+    --background-itens: #242526;
+    --color-text: #FFFFFF;
+
+    --background-skills: rgb(0, 0, 0);
+    --background-text-skills: rgb(255, 255, 255);
+}
+
+.style:hover{
+    width: 35px;
+    height: 35px;
+    transition: 0.5s;
+}
+
+/*FIM CONTATO*/

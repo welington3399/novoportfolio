@@ -1,0 +1,57 @@
+#footer{
+    margin-top: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--background-itens);
+    color: var(--color-text);
+    text-align: center;
+    padding: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px -2px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.org_footer{
+    margin: 15px;
+}
+
+.info{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+/* .faixa{
+    background-color: red;
+    padding: 0px 50px;
+} */
+
+.org_footer a{
+    margin: 15px;
+}
+
+.contato{
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contato h2,p{
+    margin: 10px;
+}
+
+.dados_cont{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    font-size: 1.2em;   
+}   
+
+.img_cont{
+    padding: 5px;
+    margin: 1px;
+    width: 40px;
+}
+
+.nav-bar img{
+    margin: 10px;
+    width: 40px;
+}

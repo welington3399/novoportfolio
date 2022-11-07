@@ -1,0 +1,227 @@
+@media(min-width: 1800px){
+    .org-header{
+        scale: 1;
+    }
+    #nome{
+        font-size: 38px;
+    }
+    #nav-bar ul li a,
+    #nav-bar ul li input{
+        font-size: 25px;
+    }
+    .div_inicio{
+        scale: 1.3;
+    }
+    .div_sobre{
+        scale: 1.3;
+    }
+    #div_skill {
+        max-width: 1058px;
+        height: 802px;
+        gap: 115px;
+    }
+    .ali_skill{
+        scale: 1.3;
+    }
+    .estrutura_div_proj{
+        scale: 1.3;
+        margin: 85px;
+    }
+    .tam_cont_footer{
+        width: 800px;
+        margin: auto;
+        padding-top: 25px;
+        scale: 1.2;
+    }
+    #subir{
+        scale: 1.3;
+    }
+}
+
+@media (max-width: 1230px){
+    .nav-bar ul li a{
+        margin: 2px;
+        padding: 10px;
+    }
+    .nav-bar ul li input{
+        margin: 2px;
+        padding: 10px;
+    }
+
+    #nome{
+        font-size: 1.9rem;
+    }
+
+    .contato{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 1125px){
+    #nome{
+        margin-left: 0px;
+    }
+
+    #nav-bar ul li a{
+        
+        padding: 15px 15px 15px 7px;
+    }
+    #nav-bar ul li input{
+        padding: 15px 0px 15px 7px;
+    }
+}
+
+@media (max-width: 1050px){
+    .selfie{
+        margin: 0px;
+    }
+    .div_sobre{
+        font-size: 1.5em;
+    }
+
+    .div_sobre  h2{
+        font-size: 1.5em;
+        margin: 5px 0px;
+    }
+}
+
+@media (max-width: 1005px){
+    .div_sobre{
+        font-size: 1.3em;
+    }
+
+    .div_sobre  h2{
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 940px){
+    #nav-bar ul li a{
+        margin: 2px;
+        padding: 7px;
+
+    }
+    #nav-bar ul li input{
+        margin: 2px;
+        padding: 7px;
+
+    }
+
+    #nome{
+        font-size: 1.8rem;
+        margin-left: 15px;
+    }
+    .org-header{
+        margin: 0px 0px;
+    }
+}
+
+@media (max-width: 790px){
+    .img_start{
+        width: 200px;
+        float: none;
+    }
+    #ponto{
+        bottom: 35px;
+    }
+
+}
+
+@media (max-width: 700px){
+    .org_skill {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 542px){
+    .div_inicio{
+        margin: 55px 15px; 
+    }
+    #ponto {
+        bottom: -35px;
+    }
+}
+
+@media (max-width: 430px){
+    #nome{
+        font-size: 1.6em;
+    }
+
+    .selfie{
+        height: 200px;
+    }
+
+    .div_inicio {
+        margin: 10px;
+        width: auto;
+        height: 100%;
+    }
+
+    .div_inicio .botao {
+        margin: 10px;
+    }
+
+    #ponto{
+        bottom: 30px;
+    }
+
+    .sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        min-height: 100vh;
+    }
+
+    .div_sobre{
+        padding: 15px;
+        font-size: 1.3em;
+    }
+
+    .selfie{
+        width: 150px;
+        height: 150px;
+    }
+
+    .org_skill{
+        display: flex;
+    }
+
+    .contato{
+        display: block;
+    }
+
+    .skills{
+        flex-direction: column;
+    }
+
+    .img_proj{
+        height: 100%;
+    }
+}
+
+@media (max-width: 376px){
+    .img_start{
+        display: none;
+    }
+}
+
+@media (max-width: 285px){
+    #ponto {
+        display: none;
+    }
+    .div_inicio{
+        margin-top: 55px;
+    }
+    .format{
+        height: 200px;
+    }
+    .org_footer a {
+        margin: 3px;
+    }
+    #subir {
+        bottom: 45px !important;
+        right: 16px !important;
+    }
+}

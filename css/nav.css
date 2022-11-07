@@ -1,0 +1,124 @@
+#cabecalho{
+    width: 100%;
+    position:fixed;
+    background: var(--background-itens);
+    box-shadow: rgb(0 0 0 / 30%) 0px 1px 2px 0px, rgb(0 0 0 / 15%) 0px 1px 3px 1px;
+    z-index: 2;
+}
+
+.org-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 25px;
+}
+
+#nav-bar #nav-menu #verf{
+    display: none;
+}
+
+#nome{
+    font-size: 35px;
+    font-weight: 900;
+    margin-left: 15px;
+    background: #2375e1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+#nav-bar ul li a{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+
+    font-size: 20px;
+    color: #2374E1;
+    position: relative;
+    font-weight: 600;
+}
+
+#nav-bar ul li a:hover{
+    color: #275c87;
+    font-weight: 600;
+}
+
+#nav-bar ul li input{
+    display: inline-flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 20px;
+    color: #2374E1;
+    position: relative;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#nav-bar ul li input:hover{
+    color: #275c87;
+}
+
+/* displey movel */
+.hamburguer{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: var(--color-text);
+}
+
+@media (max-width: 845px){
+    .hamburguer{
+        display: block;
+        margin: 15px 15px;
+    }
+    .hamburguer.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburguer.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburguer.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    #nav-menu{
+        position: fixed;
+        left: -450%;
+        top: 49px;
+        border-radius: 0 0 20px 20px;
+        background: var(--background-itens);
+        box-shadow: rgb(0 0 0 / 30%) 0px 1px 2px 0px, rgb(0 0 0 / 15%) 0px 1px 3px 1px;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        transition: 0.2s;
+    }
+
+    #nav-menu.active{
+        left: 0;
+    }
+
+    #nav-bar #nav-menu a{
+        border: none;
+        border-radius: 0px;
+        width: 100px;
+    }
+
+}
+

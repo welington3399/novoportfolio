@@ -1,0 +1,150 @@
+#projetos{
+    display: block;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.estrutura_div_proj{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.text_proj{   
+    height: 150px;
+    /* border:3px solid #2575E1; */
+    border-top-width: 0px;
+    background: var(--background-itens);
+    color: var(--color-text);
+}
+
+.text_proj h2{   
+    margin-top: 15px;
+}
+
+
+#projetos h2{
+    margin-bottom: 25px;
+    position: relative;
+    color: var(--color-text);
+}
+
+
+#cont_proj{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nome_id{
+    padding-top: 130px;
+    text-align: center;
+    font-size: 25px;
+    min-height: 100vh
+}
+    
+.nome_id h2{
+    display: flex;
+    padding-top: 25px;
+    border-top: double;
+}
+
+.img_proj{
+    width: 100%;
+    position: absolute;
+    right: 0px;
+}
+
+.churras .transparent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.churras .transparent:hover{
+    backdrop-filter: blur(2px);
+    height: 100%;
+    width: 100%;
+}
+
+.churras:hover a{
+    color: black;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: 900;
+    background-color: #2575E1;
+    position: relative;
+    transition: 0.5s;
+}
+
+.churras:hover p{
+    color: black;
+    padding: 10px;
+    font-size: 1.8em;
+    font-weight: 900;
+    position: relative;
+    transition: 0.5s;
+}
+
+.img_proj:hover{
+    width: 100%;
+    filter: blur(2px);
+    transition: 0.3s;
+}
+
+.churras a{
+    align-items: center;
+}
+
+.format{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    position: relative;
+    height: 300px;
+    background-color: #9f9f9f;
+    /* border: 1px solid #071e26; */
+    text-align: center;
+    overflow: hidden;
+    /* border: 3px solid #2575E1; */
+    /* box-shadow: #ffac09 0px 25px 20px 5px; */
+    
+}
+
+.faixa{
+    /* top: 35%; */
+    position: relative;
+    /* margin: 69px; */
+    background-color: #1F2127;
+    /* rotate: 331deg; */
+    width: 100%;
+    /* right: 114px; */
+  }
+
+.faixa .texto{
+    position: relative;
+    font-size: 1.7em;
+    color: white;
+    padding: 25px;
+    animation: anime infinite alternate ease-out 1s;
+  }
+
+  @keyframes anime{
+    0%{
+        opacity: 1;
+        transform: translateY(5px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-5px);
+    }
+  }
+
